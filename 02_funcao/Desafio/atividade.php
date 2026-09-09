@@ -1,7 +1,7 @@
 <?php
 require_once "funcao.php";
 
-$resultado = calcularPedido("Teclado", 100, 10, 5, 7, 10);
+$resultado = calcularPedido("Mouse", 200, 5, 20, 70);
 echo "Nome: ". $resultado["nomeProduto"]. "<br>";
 echo "SubTotal: ". $resultado ['subTotal']. "<br>";
 echo "Desconto: ". $resultado ['valorDesconto']. "<br>";
