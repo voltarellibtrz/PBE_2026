@@ -1,5 +1,4 @@
 <?php
-
 class Funcionario{
     private $nome;
     private $salario;
@@ -19,7 +18,7 @@ class Funcionario{
     }
 
     public function exibirSalario(){
-        echo "Funcionário: $this->nome - Salário R$" number_format($this->salario);
+        echo "Funcionário: $this->nome - Salário R$", number_format($this->salario);
     }
 }
 
