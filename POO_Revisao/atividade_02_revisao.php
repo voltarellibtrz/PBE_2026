@@ -19,4 +19,7 @@ class Carro{
         echo "Velocidade: $this->velocidade km/h <br>";
     }
 }
+
+$carro = new Carro("Civic", acelerar(10) );
+$carro->
 ?>
